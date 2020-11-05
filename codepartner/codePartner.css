@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 35%;
+  margin: 0 auto;
+  background: #f0f0f0;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background: #e5eaf0;
+}
+
+.nav .hamburger {
+  flex: 1;
+  cursor: pointer;
+}
+
+.nav .hamburger .line {
+  width: 20px;
+  height: 5px;
+  background: gray;
+  position: relative;
+}
+
+.nav .hamburger .line::before {
+  content: "";
+  height: 5px;
+  width: 25px;
+  background: gray;
+  position: absolute;
+  top: -10px;
+}
+
+.nav .hamburger .line::after {
+  content: "";
+  height: 5px;
+  width: 15px;
+  background: gray;
+  position: absolute;
+  top: 10px;
+}
+
+.nav .fonts {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  font-size: 1.2rem;
+  color: #636363;
+  cursor: pointer;
+}
+
+.nav .logo {
+  flex: 1;
+  cursor: pointer;
+}
+
+section {
+  margin: 5px 7px;
+}
+
+section img {
+  width: 100%;
+  border-radius: 2%;
+  height: 50vh;
+  cursor: pointer;
+}
+
+section h4 {
+  color: #2d89b5;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+section h2 {
+  color: #636363;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+section .rating {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+section .rating .star h4 {
+  font-size: 1.5rem;
+  margin-right: 5rem;
+}
+
+section .rating .star h4 span {
+  color: #339e00;
+}
+
+section .rating h4 {
+  color: #339e00;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price p {
+  font-size: 2.2rem;
+  color: #fb951b;
+  font-weight: 800;
+  position: relative;
+}
+
+.price p span {
+  padding: 0 50px;
+  color: greenyellow;
+}
+
+.price p span::before {
+  content: "";
+  height: 2px;
+  width: 80px;
+  background: grey;
+  position: absolute;
+  top: 20px;
+  left: 240px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  cursor: pointer;
+}
+
+.buttons .buy {
+  flex: 1;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  background: #fb951b;
+  padding: 20px 0;
+}
+
+.buttons .buy:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+.buttons .buy i {
+  padding: 0 10px;
+}
+
+.buttons .add {
+  flex: 1;
+  font-size: 1.2rem;
+  text-align: center;
+  background: grey;
+  padding: 20px 0;
+  color: white;
+}
+
+.buttons .add:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+.buttons .add i {
+  padding: 0 10px;
+}
+/*# sourceMappingURL=codePartner.css.map */
